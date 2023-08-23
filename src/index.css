@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,body,#root{
+  height: 100%;
+}
+html{
+  font-size: 62.5%;
+}
+main{
+  flex-grow: 1  ;
+}
+
+.brend{
+  background: linear-gradient(to right, #181715, #888987,#061f70);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+/* body{
+  height: 100vh;
+  background-image: url(https://phonoteka.org/uploads/posts/2022-09/1663852412_40-phonoteka-org-p-fon-dlya-bara-krasivo-43.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+} */
