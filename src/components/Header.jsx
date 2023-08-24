@@ -4,7 +4,7 @@ import {NavLink } from 'react-router-dom'
 
 const Header = () => {
   return (
-    <div className='flex w-[100%] bg-[#ffaa48] px-[10rem] py-[1rem] justify-between items-center'>
+    <div className='flex w-[100%] bg-[#f0f1effd] px-[10rem] py-[1rem] justify-between items-center'>
 
         <div className='flex gap-2 '>
         <img src={Logo} alt="Logo" width={40}/> 

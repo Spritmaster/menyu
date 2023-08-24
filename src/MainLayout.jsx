@@ -5,7 +5,7 @@ import Footer from './components/Footer'
 
 const MainLayout = () => {
   return (
-    <div className='flex justify-between flex-col h-[100vh]'>
+    <div className='flex justify-between flex-col h-[100vh] '>
         <Header/>
         <Outlet/>
         <Footer/>
