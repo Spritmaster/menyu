@@ -23,8 +23,8 @@ export const useFetch=(url)=>{
                 setError(null)
         } catch (err) {
             setPading(false)
-            setError(err.message)
-            console.log(err.message);
+            setError(err)
+            console.log(err);
         }
         }
         getData()
